@@ -14,7 +14,7 @@ namespace LearningElasticSearch
             var settings = 
                 new ConnectionSettings(new Uri("https://ee949088a836d3d2ef4d10c862472ceb.eu-west-1.aws.found.io:9243/"))
                 .DefaultIndex("people")
-                .BasicAuthentication("elastic", "4KCZvEMSfZXEzamMXxjpvsOn");
+                .BasicAuthentication("elastic", "");
             var client = new ElasticClient(settings);
 
             var person = new Person
